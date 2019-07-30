@@ -1,0 +1,15 @@
+{
+  "name": "mycanvas",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "license": "MPL-2.0",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^4.1.1",
+    "live-server": "^1.2.1",
+    "typescript": "^3.5.3"
+  },
+  "scripts": {
+    "start": "concurrently \"tsc --watch\" \"live-server\""
+  }
+}
